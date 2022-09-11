@@ -2,6 +2,7 @@
 .wrapper{
     margin: 0 auto;
     max-width: 1440px;
+    border: 1px solid red;
 }
 header{
     display: flex;
@@ -249,12 +250,12 @@ header{
 .block2-element2-1{
     display: flex;
     justify-content: space-between;
-    width: 100%;
+    width: 90%;
 }
 .block2-element2-2{
     display: flex;
     justify-content: space-between;
-    width: 100%;
+    width: 90%;
     margin-top: 100px;
 }
 
@@ -271,30 +272,37 @@ header{
     justify-content: space-between;
 }
 .block3-element1{
-    width: 50%;
+    width: 640px;
     position: relative;
 }
 .block3-element1-img1{
     position: absolute;
-    right: 20px;
+    left: 48px;
     
 }
 .block3-element1-img2{
     position: absolute;
-    left: 0;
     top:0;
+    left: 0;
     
 }
 .block3-element1-img3{
     position: absolute;
     right: 0;
     bottom: 0;
+    top:293px;
+}
+.block3-element1 div{
+    position: absolute;
+    top:196px;
+    right: 10px;
 }
 
 
 
 .block3-element2{
-    width: 50%;
+    width: 493px;
+    margin-left: 128px;
 }
 .block3-element2 h6{
     font-family: 'Plus Jakarta Sans';
@@ -344,4 +352,263 @@ header{
 }
 .block3-element2-p{
     margin-top:35px;
+}
+
+.block-4{
+    display: flex;
+    justify-content: space-between;
+    margin: 295px 120px 180px 120px;
+    height: 574px;
+}
+.block4-element1{
+    position: relative;
+    width: 414px;
+}
+.block4-element1 h6{
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 43px;
+    line-height: 56px;
+    letter-spacing: 1.44px;
+    color: #080829;
+}
+.block4-element1 p{
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    letter-spacing: 0.36px;
+    color: #545479;
+}
+.personInYellowCircle{
+    margin-top: 44px;
+    display: flex;
+    gap:24px;
+}
+.personInYellowCircle p{
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: 0.36px;
+    color: #080829;
+}
+.block4-element1 button{
+    width:174px;
+    height: 59px;
+    background: #3F53D8;
+    border-radius: 14px;
+    border: none;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.4px;
+    color: #FFFFFF;
+    margin-top: 48px;
+}
+.yellowCircle{
+    background: #FFC123;
+    width:16px;
+    height:16px;
+    border-radius: 10px;
+    position: absolute;
+    
+}
+
+
+.block4-element2{
+    width: 624px;
+    position: relative;
+}
+.powerful-insights{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    right: -30px;
+}
+.donut{
+    position: absolute;
+    top: -58px;
+    left: -105px;
+}
+.yellowCircle2 {
+    left:308px;
+}
+
+
+ .block-5{
+    margin: 0 120px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.block5-element1{
+    width: 676px;
+    position: relative;
+}
+.AAA{
+    position: absolute;
+    right: 0;
+    bottom: 42px;
+}
+.sideSettings{
+    position: absolute;
+    right: 38px;
+    top: 63px;
+}
+.block5-element2{
+    width: 432px;
+    margin-top: 35px;
+    position: relative;
+} 
+.block5-element2 h6{
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: 1.44px;
+    color: #080829;
+}
+.block5-element2 p{
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 29px;
+    letter-spacing: 0.36px;
+    color: #545479;
+    margin-top: 27px;
+}
+.block5-element2-icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.ipsum-4{
+    object-position: -8px;
+}
+
+.block5-pirpleCircle{
+    position: absolute;
+    background: #A259FF;
+    width:16px;
+    height:16px;
+    border-radius: 10px;
+    right: 0;
+    bottom: -39px;
+}
+.block-6{
+    margin: 177px 120px;
+}
+.block-6 h6{
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 43px;
+    line-height: 56px;
+    letter-spacing: 1.44px;
+    color: #080829;
+    text-align: center;
+}
+.block6-element2{
+    display: flex;
+    margin-top: 82px;
+    justify-content: space-between;
+}
+.block6-element2 h5{
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 34px;
+    letter-spacing: 0.56px;
+    color: #080829;
+    margin-top: 39px;
+}
+.block6-element2 p{
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 29px;
+    letter-spacing: 0.36px;
+    color: #545479;
+    margin-top: 20px;
+}
+
+.block-7{
+    margin: 192px 120px 198px 120px;
+}
+.block-7 h6{
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 56px;
+    text-align: center;
+    letter-spacing: 1.44px;
+    color: #080829;
+}
+.block7-content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.block7-element2{
+    width: 726px;
+    margin-left:137px;
+}
+.block7-stars{
+    margin-top: 82px;
+}
+.block-7 h5{
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 45px;
+    letter-spacing: 0.64px;
+    color: #080829;
+    margin-top: 34px;
+}
+.block-7 p{
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 34px;
+    letter-spacing: 0.48px;
+    color: #080829;
+    margin-top: 34px;
+}
+.block7-bottom{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    align-items: center;
+}
+.block7-quotes{
+    display: flex;
+    position: relative;
+    width:1035px;;
+}
+.block7-rightQuote{
+    opacity: 0.2;
+    position: absolute;
+    bottom:108px;
+    right: 0;
+}
+.block7-leftQuote{
+    opacity: 0.2;
+    position: absolute;
+    left: 0;
+    top:108px;
 }
