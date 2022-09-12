@@ -2,7 +2,6 @@
 .wrapper{
     margin: 0 auto;
     max-width: 1440px;
-    border: 1px solid red;
 }
 header{
     display: flex;
