@@ -612,3 +612,338 @@ header{
     left: 0;
     top:108px;
 }
+.block-8{
+    margin:0 120px 175px 120px;
+    display: flex;
+    gap: 187px;
+}
+.block8-element1{
+    width: 220px;
+    display:flex ;
+    align-items: center;
+    gap: 24px;
+}
+.block8-element1 h5{
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.4px;
+    color: #080829;
+}
+.block8-element2{
+    display: flex;
+    gap:92px;
+    width: 758px;
+}
+.block8-element2-cards {
+    width: 211px;
+}
+.block8-element2-cards h6{
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 58px;
+    letter-spacing: 1.44px;
+    color: #080829;
+}
+.block8-element2-cards p{
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 27px;
+    color: #545479;
+    margin-top: 15px;
+}
+.block-9{
+    margin: 0 120px 220px 120px;
+    position: relative;
+}
+.block-9 h6{
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 47px;
+    line-height: 56px;
+    text-align: center;
+    letter-spacing: 1.44px;
+    color: #080829;
+}
+
+.block9-element2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 85px;
+    height: 90px;
+}
+
+.block9-element2 img:nth-child(odd), .block9-element3 img:nth-child(odd) {
+    align-self: flex-start;
+}
+
+.block9-element2 img:nth-child(even), .block9-element3 img:nth-child(even) {
+    align-self: flex-end;
+}
+
+.block9-element3{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 85px;
+    height: 90px;
+}
+.block-9 h6{
+    margin-bottom: 80px;
+}
+.block9-icons {
+    position: relative;
+    height: 381px;
+    display: flex;
+    flex-direction: column;
+}
+.block9-aquaCircle{
+    background: #98F5EC;
+    width: 32px;
+    height: 32px;
+    border-radius: 15px;
+    position: absolute;
+    right: -48px;
+    top: -57px;
+}
+.block-10{
+    margin: 0 120px;
+    padding-bottom: 179px;
+    z-index: 2;
+    background: white;
+    position: relative;
+}
+.block-10 h6{
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 43px;
+    line-height: 56px;
+    letter-spacing: 1.44px;
+    color: #080829; 
+    text-align: center;
+    margin-bottom: 86px;
+}
+.block10-element2{
+    display: flex;
+    gap:60px;
+}
+.block10-element2-card button{
+    Width:113px;
+    height: 34px;
+    border-radius: 10px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 0.36px;
+    color: #080829;
+    border: none;
+    margin-top: 31px ;
+
+}
+.block10-element2-card h5{
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 39px;
+    letter-spacing: 0.52px;
+    color: #080829;
+    margin-top: 27px;
+}
+.block10-element2-card p{
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 0.36px;
+    color: #080829;
+}
+.block10-blackCircle{
+    width:5px;
+    height:5px;
+    background: #000000;
+    margin: 5px 8px 0 8px;
+} 
+.block10-bottom{
+    display: flex;
+    align-items: center;
+    margin-top: 21px;
+}
+.block10-element2-card {
+    width: 360px;
+}
+.block10-element2-card img{
+    height: 251px;
+    
+}
+.block10-branding{
+    background: rgba(162, 89, 255, 0.3);
+}
+.block10-Business{
+    background: #D9DEFF;
+}
+.block10-Startup{
+    background: rgba(250, 91, 104, 0.3);
+}
+.block-11{
+    width: 1440px;
+    height:676px;
+    background: #080829;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 107px;
+    position: relative;
+}
+.block-11 h6{
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 79px;
+    text-align: center;
+    letter-spacing: 2.16px;
+    color: #FFFFFF;
+}
+.block-11 button{
+    background: #3F53D8;
+    border-radius: 14px;
+    border: none;
+    width:240px;
+    height:59px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.4px;
+    color:  #FFFFFF;
+}
+.block11-bottom{
+    position: relative;
+    width: 455px;
+    display: flex;
+    justify-content: center;
+    margin-top: 65px;
+}
+.arrowWhite{
+    position: absolute;
+    top: 0;
+    right: -105px;
+    
+}
+.piece-of-card{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.piece-of-card2{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.block11-yellowCircle{
+    background: #FFC123;
+    width:16px;
+    height:16px;
+    border-radius:10px;
+    left: 144px;
+    bottom: 140px;
+    position: absolute;
+}
+.block11-aquaCircle{
+    background: #98F5EC;
+    width:70px;
+    height:70px;
+    border-radius: 35px;
+    position: absolute;
+    right: 144px;
+    top: -45px;
+    z-index: 1;
+}
+.block-12{
+    margin: 0 120px 62px 120px;
+    position: relative;
+}
+.block12-element1{
+    display: flex;
+    justify-content: space-between;
+}
+.block12-element1 li{
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    color: #080829;
+    margin-bottom: 16px;
+}
+.block12-element1 li:first-child{
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    text-transform: uppercase;
+    color: #080829;
+}
+.block12-element1-right{
+    display: flex;
+    justify-content: space-between;
+    width: 724px;
+}
+.block12-element2{
+    display: flex;
+    justify-content: space-between;
+}
+.block12-element2 p{
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    margin-top: 89px;
+}
+.block12-postIcon{
+    margin-right: 14px;
+    
+}
+.block12-telephone{
+    margin-right: 14px;
+}
+.block12-planet{
+    margin-right: 14px;
+}
+.block12-socialIcons{
+    display: flex;
+    gap:29.1px;
+    margin-top:37px ;
+}
+.block12-Icon{
+    display: flex;
+    align-items: center;
+}
+.block12-greenCircle{
+    background: #2CAE76;
+    opacity: 0.8;
+    width:18px;
+    height:18px;
+    position: absolute;
+    border-radius: 10px;
+    left: 180px;
+    bottom: 190px;
+}
