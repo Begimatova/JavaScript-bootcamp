@@ -113,7 +113,7 @@
 //     alert('третья четверть')
 // }
 // else if(min>45 && min<=59){
-//     alert('третья четверть')
+//     alert('четвёртая четверть')
 // }
 // else {
 //     alert('неккоректный ввод')
@@ -130,6 +130,7 @@
 // lang=prompt('enter ru or en: ')
 // const arr1 = ['Понедельник','Вторник','Среда', 'Четверг','Пятница','Суббота','Воскресенье']
 // const arr2 = ['Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday']
+// let arr
 // if(lang==='ru'){
 //     arr=arr1
 // }
