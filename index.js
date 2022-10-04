@@ -19,10 +19,10 @@ const inpValue = () => {
 
     // Очистка инпута
     document.querySelector('.inp').value = ''
-    getTask()
+    renderTasks()
 }
 
-const getTask = () => {
+const renderTasks = () => {
     arrTask.map(item => createTask(item))
 }
 
@@ -36,6 +36,12 @@ const createTask = info => {
     let status = document.createElement('input')
     status.type = 'checkbox'
     status.onclick = () => tagP.classList.add('textElement')
+    let deleteButton = document.createElement('button')
+    deleteButton.innerText = 'x'
+    deleteButton.onclick = () => checkboxDiv.innerHTML = ''
+    checkboxDiv.append(deleteButton)
+
+
 
     checkboxDiv.append(status)
     tasks.append(checkboxDiv)
