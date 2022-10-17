@@ -4,24 +4,42 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- <link rel="stylesheet" href="./dist/output.css" /> -->
-    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" type="text/css" href="./dist/output.css" />
     <title>Document</title>
   </head>
   <body>
-    <header class="py-6 bg-[#000000]">
-      <div class="container mx-auto text-center">
-        <a
-          class="text-sky-100 hover:text-gray-300 delay-300 text-3xl"
-          href="./index.html"
-          >Shopping App</a
-        >
+    <header class="header">
+      <div class="wrapper">
+        <a class="header-link" href="./index.html">Shopping App</a>
       </div>
     </header>
 
-    <main class="gap-y-24 flex flex-col py-6 px-4 sm:p-6 md:py-10 md:px-8">
-      
-    </main>
-    <script src="/src/main.js"></script>
+    <!-- Sort Block -->
+    <div class="sort-wrapper">
+      <section class="sort-section">
+        <div class="sort-container">
+          <div class="sort-categoryes">
+            <span class="sort-categoryes-item">Categoryes</span>
+            <img
+              src="./src/images/svg/arrow.svg"
+              width="20"
+              alt="Arrow Down"
+            />
+          </div>
+          <input class="sort-search" type="search" placeholder="Search" />
+          <div class="sort-search-right">
+            <img src="./src/images/svg/search.svg" width="30" alt="Search" />
+          </div>
+        </div>
+      </section>
+
+      <section class="my-7">
+        <h2 class="text-xl font-medium">All Products</h2>
+        <!-- Products -->
+        <div class="my-5 flex flex-wrap test"></div>
+      </section>
+    </div>
+
+    <script src="./src/main.js"></script>
   </body>
 </html>

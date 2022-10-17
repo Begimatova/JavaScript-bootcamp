@@ -4,6 +4,7 @@
     "tailwindcss": "^3.1.8"
   },
   "scripts": {
-    "start": "browser-sync start --server --files 'css/*.css, *.html, src/*.js'"
+    "dev": "browser-sync start --server --files src/*.css *.html src/*.js",
+    "tailwind": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
   }
 }

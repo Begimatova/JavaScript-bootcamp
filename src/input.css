@@ -1,3 +1,46 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Header Block */
+.header {
+  @apply py-6 bg-[#000000];
+}
+
+.wrapper {
+  @apply container mx-auto text-center;
+}
+
+.header-link {
+  @apply text-sky-100 delay-300 hover:text-gray-300 text-3xl;
+}
+
+/* Sort Block */
+
+.sort-wrapper {
+  @apply container mx-auto;
+}
+
+.sort-section {
+  @apply my-5;
+}
+
+.sort-container {
+  @apply flex items-center h-12;
+}
+
+.sort-categoryes {
+  @apply flex items-center cursor-pointer bg-[#e5e3e1] hover:bg-[#d1cecb] h-full px-3 rounded-l-lg;
+}
+
+.sort-categoryes-item {
+  @apply pr-2;
+}
+
+.sort-search {
+  @apply w-96 h-full border-2 border-r-0 outline-0 pl-3.5 pr-3.5;
+}
+
+.sort-search-right {
+  @apply w-12 h-full bg-[#febd68] hover:bg-[#f3ac50] flex items-center justify-center cursor-pointer rounded-r-lg;
+}
